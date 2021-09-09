@@ -19,7 +19,7 @@ public class Day3mousehover {
 		Thread.sleep(5000);
 		driver.findElement(By.className("nav-action-inner")).click();
 		Thread.sleep(2000);
-		String expectedTitle="Amazon SignIn";
+		String expectedTitle="Amazon Sign In";
 		String actualTitle=driver.getTitle();
 		System.out.println("Actual Title is : "+actualTitle);
 		if (actualTitle.equalsIgnoreCase(expectedTitle))
